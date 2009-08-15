@@ -1,3 +1,8 @@
+// ==Builder==
+// @required
+// @package           GM
+// ==/Builder==
+
 Document.implement({
   getWindow: function(){
     return (new Window(this.defaultView || this.parentWindow));
